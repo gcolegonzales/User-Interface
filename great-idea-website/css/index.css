@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 .nav-bar-top {
 	display: inline-block;
-	margin: auto;
+	margin: 25px auto;
 	width: 100%;
 	text-align: center;
 }
@@ -83,20 +83,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	margin-left: 15px;
+	margin-left: 18px;
 }
 
 .top-section {
 	border-bottom: 2px solid black;
 	margin-bottom: 50px;
-	padding-bottom: 50px;
 }
 
 header {
-	padding: 15px;
+	padding: 7px;
 	display: inline-block;
 	width: 100%;
-	margin: auto;
+	margin: 50px auto 0px auto;
+	padding-bottom: 30px;
 }
 
 .header-text {
@@ -106,23 +106,28 @@ header {
 }
 
 header img {
+	display: block;
 	float: right;
 	width: 40%;
 	margin-right: 50px;
 }
 
 #onDemand {
-	font-size: 52px;
-	width: 35%;
+	text-align: center;
+	font-size: 72px;
 	padding: 100px;
 }
 
 #startBtn {
-	display: inline;
+	display: inline-block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	padding: 6px 35px 6px 35px;
-	border: 2px solid black;
+	color: gray;
+	padding: 6px 40px 6px 40px;
+	border: 1px solid gray;
+	position: relative;
+	bottom: 100px;
+	left: 167px;
 }
 
 .main-content {
@@ -132,7 +137,17 @@ header img {
 }
 
 .entry {
-	width: 40%;
+	display: inline-block;
+	width: 500px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.small-entry {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	padding-bottom: 35px;
 }
 
 .main-content .entry h1 {
@@ -140,8 +155,31 @@ header img {
 }
 
 .main-content .entry p {
+	font-size: 18px;
+	margin-right: 0px;
 	margin-bottom: 30px;
 	width: 100%;
+}
+
+.main-content .small-entry p {
+	font-size: 18px;
+}
+
+#about {
+	float: right;
+}
+
+#product {
+	position: relative;
+	left: 45px;
+}
+
+#vision {
+	float: right;
+}
+
+.main-content img {
+	margin-bottom: 38px;
 }
 
 .contact-form {
